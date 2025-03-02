@@ -295,7 +295,8 @@ main {
   margin-bottom: 20px;
 }
 
-.summary-sub-section p {
+.summary-sub-section p,
+.connect-section p {
   color: #757575;
   font-size: 16px;
   font-family: Open Sans;
@@ -314,4 +315,51 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 113px;
+}
+
+/*Footer section started here*/
+
+footer {
+  background-color: #fff8f3;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.footer-section {
+  display: flex;
+  gap: 57px;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+
+.connect-icon-section img {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  color: #757575;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+  line-height: 28px;
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: none;
+  width: 460px;
+}
+
+.message-section,
+.connect-section {
+  width: 50%;
 }
